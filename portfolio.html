@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - ABR Creative</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="scroll-progress"></div>
+
+    <header>
+      <div class="logo">
+        <a href="index.html">
+          <h1>ABR Portfolio</h1>
+        </a>
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="team.html">Our Team</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-buttons">
+        <a href="#" class="btn-login">Log in</a>
+        <a href="#" class="btn-signup">Sign up</a>
+        <button id="dark-mode-toggle" class="dark-mode-toggle">
+          <i class="fas fa-moon"></i>
+        </button>
+      </div>
+      <div class="mobile-menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+
+    <section class="page-header">
+      <div class="page-header-content">
+        <h1>Our Portfolio</h1>
+        <p>Showcasing our creative work and projects</p>
+      </div>
+    </section>
+
+    <section class="portfolio-full reveal">
+      <div class="container">
+        <div class="section-header">
+          <h2>our <span>work</span></h2>
+          <p>PROJECTS WE'RE PROUD OF</p>
+        </div>
+
+        <div class="portfolio-filter">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="branding">Branding</button>
+          <button class="filter-btn" data-filter="web">Web Design</button>
+          <button class="filter-btn" data-filter="photography">
+            Photography
+          </button>
+          <button class="filter-btn" data-filter="illustration">
+            Illustration
+          </button>
+        </div>
+
+        <div class="portfolio-grid">
+          <div class="portfolio-item branding">
+            <img src="images/image2.jpg" alt="Pastel Dreams Branding" />
+            <div class="portfolio-overlay">
+              <h3>Pastel Dreams</h3>
+              <p>Brand Identity</p>
+            </div>
+          </div>
+
+          <div class="portfolio-item web">
+            <img src="images/image3.jpg" alt="Nature Retreat Website" />
+            <div class="portfolio-overlay">
+              <h3>Nature Retreat</h3>
+              <p>Web Design</p>
+            </div>
+          </div>
+
+          <div class="portfolio-item photography">
+            <img src="images/image4.jpg" alt="Urban Vibes Photography" />
+            <div class="portfolio-overlay">
+              <h3>Urban Vibes</h3>
+              <p>Photography</p>
+            </div>
+          </div>
+
+          <div class="portfolio-item branding">
+            <img src="images/image5.jpg" alt="Soft Elegance Branding" />
+            <div class="portfolio-overlay">
+              <h3>Soft Elegance</h3>
+              <p>Brand Identity</p>
+            </div>
+          </div>
+
+          <div class="portfolio-item illustration">
+            <img src="images/image6.jpg" alt="Fantasy World Illustrations" />
+            <div class="portfolio-overlay">
+              <h3>Fantasy World</h3>
+              <p>Illustration Series</p>
+            </div>
+          </div>
+
+          <div class="portfolio-item web">
+            <img src="images/image7.jpg" alt="Tech Startup Website" />
+            <div class="portfolio-overlay">
+              <h3>Tech Innovators</h3>
+              <p>Web Design</p>
+            </div>
+          </div>
+
+          <div class="portfolio-item photography">
+            <img src="images/image8.jpg" alt="Product Photography" />
+            <div class="portfolio-overlay">
+              <h3>Artisan Collection</h3>
+              <p>Product Photography</p>
+            </div>
+          </div>
+
+          <div class="portfolio-item branding">
+            <img src="images/image9.jpg" alt="Cafe Branding" />
+            <div class="portfolio-overlay">
+              <h3>Morning Brew</h3>
+              <p>Cafe Branding</p>
+            </div>
+          </div>
+
+          <div class="portfolio-item illustration">
+            <img src="images/image10.jpg" alt="Digital Illustrations" />
+            <div class="portfolio-overlay">
+              <h3>Nature's Voice</h3>
+              <p>Illustration Series</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h2>ABR Creative</h2>
+          <p>
+            Azbia, Beenish & Rameen - Creating joy in your everyday life through
+            beautiful design.
+          </p>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="team.html">Our Team</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-newsletter">
+          <h3>Stay Updated</h3>
+          <p>Subscribe to our newsletter for the latest updates.</p>
+          <form>
+            <input type="email" placeholder="Your Email" required />
+            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 ABR Creative. All rights reserved.</p>
+        <a href="#" class="back-to-top">
+          <i class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
